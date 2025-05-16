@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import heroImage from "../assets/hero.jpeg";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <section className="py-5">
       <div className="container">
@@ -52,4 +52,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;
