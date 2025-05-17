@@ -1,12 +1,37 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
+import { Home, Portofolio, Services } from "../pages";
+
+import MainLayout from "../layouts/MainLayout";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={
+            <MainLayout>
+              <Home />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/portofolio"
+          element={
+            <MainLayout>
+              <Portofolio/>
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/services"
+          element={
+            <MainLayout>
+              <Services/>
+            </MainLayout>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );

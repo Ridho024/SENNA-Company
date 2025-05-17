@@ -1,16 +1,15 @@
-import React from 'react'
-import HeroSection from '../section/HeroSection'
-import TechStack from '../section/TechstackSection'
-import Navbar from '../components/Navbar/Navbar'
+import React from "react";
+import HeroSection from "../section/Home/HeroSection";
+import TechStack from "../section/Home/TechstackSection";
+import Navbar from "../components/Navbar/Navbar";
 
 const Home = () => {
   return (
-    <>
-      <Navbar/>
+    <div className="w-100 color-primary">
       <HeroSection />
-      <TechStack/>
-    </>
-  )
-}
+      <TechStack />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
