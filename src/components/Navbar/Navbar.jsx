@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/react.svg";
 
 const Navbar = () => {
   return (
@@ -8,7 +7,6 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3 px-4">
         <div className="container-fluid">
           <a className="navbar-brand d-flex align-items-center gap-2" href="#">
-            <img src={logo} alt="nbs" width="32" height="32" />
             <span className="fw-bold text-dark fs-4">nbs.</span>
           </a>
 
@@ -35,25 +33,21 @@ const Navbar = () => {
                     <div className="col-md-8">
                       <div className="row g-4">
                         <div className="col-6 d-flex align-items-start gap-2">
-                          <img src={{ logo }} alt="" width="32" />
                           <span>
                             <strong>Product Designs & UI/UX</strong>
                           </span>
                         </div>
                         <div className="col-6 d-flex align-items-start gap-2">
-                          <img src={{ logo }} alt="" width="32" />
                           <span>
                             <strong>Build Applications</strong>
                           </span>
                         </div>
                         <div className="col-6 d-flex align-items-start gap-2">
-                          <img src={{ logo }} alt="" width="32" />
                           <span>
                             <strong>Modernize Applications</strong>
                           </span>
                         </div>
                         <div className="col-6 d-flex align-items-start gap-2">
-                          <img src={{ logo }} alt="" width="32" />
                           <span>
                             <strong>Tech Training & Consulting</strong>
                           </span>
