@@ -4,7 +4,7 @@ import { techStacks } from "../../data/techStacks";
 const TechStack = () => {
   return (
     <>
-      <section className="my-5 text-white" style={{ backgroundColor: "#dfe0eb" }}>
+      <section className="mt-5 text-white" style={{ backgroundColor: "#dfe0eb" }}>
         <div className="p-5 text-center">
           <h2 className="mb-4 fw-bold" style={{ color: "#0a2463" }}>
             Main tech stack we are use
