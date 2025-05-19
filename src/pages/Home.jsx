@@ -1,8 +1,9 @@
 import React from "react";
 import HeroSection from "../section/Home/HeroSection";
 import TechStack from "../section/Home/TechstackSection";
-import Navbar from "../components/Navbar/Navbar";
 import ServiceSection from "../section/Home/ServiceSection";
+import WhatWeDoSection from "../section/Home/WhatWeDoSection";
+import ContactUsSection from "../section/Home/ContactUsSection";
 
 const Home = () => {
   return (
@@ -10,6 +11,8 @@ const Home = () => {
       <HeroSection />
       <TechStack />
       <ServiceSection />
+      <WhatWeDoSection />
+      <ContactUsSection />
     </div>
   );
 };
