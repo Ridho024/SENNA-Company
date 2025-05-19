@@ -5,7 +5,7 @@ import heroImage from "../../assets/images/hero.jpeg";
 
 const HeroSection = () => {
   return (
-    <section className="py-5">
+    <section id="hero" className="py-5 mt-5">
       <div className="container">
         <div className="row align-items-center">
           <motion.div 

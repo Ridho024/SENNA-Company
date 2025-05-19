@@ -31,7 +31,7 @@ const TechStack = () => {
   };
 
   return (
-    <section className="py-5" style={{ backgroundColor: "#dfe0eb" }}>
+    <section id="tech-stack" className="py-5" style={{ backgroundColor: "#dfe0eb" }}>
       <div className="container">
         <motion.div 
           className="text-center"

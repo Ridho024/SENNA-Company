@@ -31,7 +31,7 @@ const ServiceSection = () => {
   };
 
   return (
-    <section className="py-5 text-center">
+    <section id="services" className="py-5 text-center">
       <motion.h2 
         className="mb-3 fw-bold"
         style={{ color: "#0a2463" }}
