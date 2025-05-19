@@ -3,7 +3,7 @@ import React from "react";
 const ContactUsSection = () => {
   return (
     <>
-      <section style={{ width: "100%", padding: "0 10rem 0 10rem" }} className="my-5" id="contact">
+      <section style={{ width: "100%", padding: "0 10rem 0 10rem" }} className="my-2" id="contact">
         <div className="text-center">
           <h2 className="mb-4 fw-bold" style={{ color: "#0a2463" }}>
             Contact Us
