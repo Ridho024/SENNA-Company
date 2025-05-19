@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3 px-4">
         <div className="container-fluid">
           <a className="navbar-brand d-flex align-items-center gap-2" href="#">
-            <span className="fw-bold text-dark fs-4">SUKI</span>
+            <span className="fw-bold fs-4" style={{ color: "#0a2463" }}>SENNA</span>
           </a>
 
           <div className="collapse navbar-collapse justify-content-center">
