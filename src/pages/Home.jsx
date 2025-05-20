@@ -3,6 +3,7 @@ import HeroSection from "../section/Home/HeroSection";
 import TechStack from "../section/Home/TechstackSection";
 import Navbar from "../components/Navbar/Navbar";
 import ServiceSection from "../section/Home/ServiceSection";
+import PortfolioSection from "../section/Home/PortofolioSection";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSection />
       <TechStack />
       <ServiceSection />
+      <PortfolioSection/>
     </div>
   );
 };
