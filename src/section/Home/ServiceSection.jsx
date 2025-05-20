@@ -4,7 +4,7 @@ import { services } from "../../data/services";
 const ServiceSection = () => {
   return (
     <section className="py-5 text-center">
-      <h2 className="mb-3 fw-bold">What I Do</h2>
+      <h2 className="mb-3 fw-bold" style={{ color: "#0a2463" }}>What We Do</h2>
       <p className="mx-auto w-75">
         Very experienced in building digital solutions in various sectors, we
         are committed to creating various digital innovations according to
