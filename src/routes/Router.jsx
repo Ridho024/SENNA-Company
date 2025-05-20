@@ -1,6 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Portofolio, Services } from "../pages";
+import { Home, Portofolio, Services, About } from "../pages";
+
+// Import individual section components
+import HeroSection from "../components/HeroSection";
+import AboutSection from "../components/AboutSection";
+import TechstackSection from "../components/TechstackSection";
+import ServiceSection from "../components/ServiceSection";
+import PortfolioSection from "../components/PortfolioSection";
+import ContactUsSection from "../components/ContactUsSection";
 
 import MainLayout from "../layouts/MainLayout";
 
@@ -12,15 +20,23 @@ const Router = () => {
           path="/"
           element={
             <MainLayout>
-              <Home />
+              <HeroSection />
             </MainLayout>
           }
         />
         <Route
-          path="/portofolio"
+          path="/about"
           element={
             <MainLayout>
-              <Portofolio/>
+              <AboutSection />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/tech-stack"
+          element={
+            <MainLayout>
+              <TechstackSection />
             </MainLayout>
           }
         />
@@ -28,7 +44,23 @@ const Router = () => {
           path="/services"
           element={
             <MainLayout>
-              <Services/>
+              <ServiceSection />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/portofolio"
+          element={
+            <MainLayout>
+              <PortfolioSection />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <MainLayout>
+              <ContactUsSection />
             </MainLayout>
           }
         />

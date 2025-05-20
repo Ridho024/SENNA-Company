@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import heroImage from "../assets/images/hero.jpeg";
 
 const AboutSection = () => {
   const [ref, inView] = useInView({
@@ -26,7 +27,7 @@ const AboutSection = () => {
               transition={{ duration: 0.3 }}
             >
               <img
-                src="/api/placeholder/600/800"
+                src={heroImage}
                 alt="About SENNA"
                 className="w-100 h-100"
                 style={{ objectFit: "cover" }}

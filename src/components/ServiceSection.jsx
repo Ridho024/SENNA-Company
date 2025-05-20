@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { services } from "../../data/services";
+import { services } from "../data/services";
 
 const ServiceSection = () => {
   const [ref, inView] = useInView({

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { techStacks } from "../../data/techStacks";
+import { techStacks } from "../data/techStacks";
 
 const TechStack = () => {
   const [ref, inView] = useInView({
