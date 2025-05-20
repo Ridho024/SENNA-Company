@@ -1,27 +1,6 @@
 import React from "react";
 import { Globe } from "lucide-react";
-import ts from "../../assets/stack/typescript.svg"; // template image silahkn ganti Y
-
-const portfolioData = [
-  {
-    title: "Sample Project 1",
-    image: ts,
-    categories: ["Education"],
-    platforms: ["web"],
-  },
-  {
-    title: "Sample Project 2",
-    image: ts,
-    categories: ["Finance"],
-    platforms: ["web"],
-  },
-  {
-    title: "Sample Project 3",
-    image: ts,
-    categories: ["E-Commerce"],
-    platforms: ["web"],
-  },
-];
+import { portofolio}  from "../../data/portofolio";
 
 const PortfolioSection = () => {
   return (
@@ -35,7 +14,7 @@ const PortfolioSection = () => {
         </p>
 
         <div className="row justify-content-center">
-          {portfolioData.map((item, index) => (
+          {portofolio.map((item, index) => (
             <div key={index} className="col-md-4 col-sm-6 mb-4">
               <div className="card shadow-lg border-0 rounded-4 overflow-hidden h-100 ">
                 <img
