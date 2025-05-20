@@ -3,8 +3,8 @@ import React from "react";
 const ContactUsSection = () => {
   return (
     <>
-      <section style={{ width: "100%" }} className="my-2" id="contact">
-        <div className="text-center">
+      <section style={{ width: "100%", display: "flex", justifyContent: "center", margin: "2rem 0 5rem 0" }} id="contact">
+        <div className="text-center border p-4 rounded-4 shadow" style={{ width: "600px"}}>
           <h2 className="mb-4 fw-bold" style={{ color: "#0a2463" }}>
             Contact Us
           </h2>

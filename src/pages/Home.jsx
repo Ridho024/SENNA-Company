@@ -6,7 +6,7 @@ import ContactUsSection from "../section/Home/ContactUsSection";
 
 const Home = () => {
   return (
-    <div className="w-100">
+    <div style={{ width: "100%" }}>
       <HeroSection />
       <TechStack />
       <ServiceSection />
