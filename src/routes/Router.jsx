@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Portofolio, Services } from "../pages";
+import { Home, Portofolio, Web } from "../pages";
 
 import MainLayout from "../layouts/MainLayout";
 
@@ -25,10 +25,10 @@ const Router = () => {
           }
         />
         <Route
-          path="/services"
+          path="/services/web-development"
           element={
             <MainLayout>
-              <Services/>
+              <Web />
             </MainLayout>
           }
         />

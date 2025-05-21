@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Navbar.css"; // Import your CSS file for custom styles
 
 const Navbar = () => {
   const activeLinkStyle = {
@@ -28,10 +29,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div
-          className="collapse navbar-collapse justify-content-center"
-          id="navbarContent"
-        >
+        <div className="collapse navbar-collapse justify-content-center" id="navbarContent">
           <ul className="navbar-nav gap-4">
             <li className="nav-item">
               <NavLink
@@ -45,21 +43,19 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item dropdown position-static service-dropdown">
-              <NavLink
-                to="#"
+              <a
                 className="nav-link dropdown-toggle text-dark"
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
               >
                 SERVICE
-              </NavLink>
+              </a>
 
-              <div className="dropdown-menu mega-dropdown p-4 shadow">
+              <div className="dropdown-menu mega-dropdown p-4 shadow mx-4">
                 <div className="row">
                   <div className="col-md-4">
-                    <h5 className="fw-bold">
-                      What would you like to build today?
-                    </h5>
+                    <h5 className="fw-bold">What would you like to build today?</h5>
                     <p className="text-muted small">
                       A highly-experienced product engineering team and a modern
                       and battle-tested approach will empower you to create
@@ -68,26 +64,38 @@ const Navbar = () => {
                   </div>
 
                   <div className="col-md-8">
-                    <div className="row g-4">
-                      <div className="col-6 d-flex align-items-start gap-2">
-                        <span>
-                          <strong>Product Designs & UI/UX</strong>
-                        </span>
+                    <div className="row g-2">
+                      <div className="col-6">
+                        <NavLink
+                          to="/services/web-development"
+                          className="dropdown-item-custom"
+                        >
+                          Web Development
+                        </NavLink>
                       </div>
-                      <div className="col-6 d-flex align-items-start gap-2">
-                        <span>
-                          <strong>Build Applications</strong>
-                        </span>
+                      <div className="col-6">
+                        <NavLink
+                          to="/services/ui-ux-design"
+                          className="dropdown-item-custom"
+                        >
+                          UI/UX Design
+                        </NavLink>
                       </div>
-                      <div className="col-6 d-flex align-items-start gap-2">
-                        <span>
-                          <strong>Modernize Applications</strong>
-                        </span>
+                      <div className="col-6">
+                        <NavLink
+                          to="/services/odoo-customization"
+                          className="dropdown-item-custom"
+                        >
+                          Odoo Customization
+                        </NavLink>
                       </div>
-                      <div className="col-6 d-flex align-items-start gap-2">
-                        <span>
-                          <strong>Tech Training & Consulting</strong>
-                        </span>
+                      <div className="col-6">
+                        <NavLink
+                          to="/services/graphic-design"
+                          className="dropdown-item-custom"
+                        >
+                          Graphic Design
+                        </NavLink>
                       </div>
                     </div>
                   </div>
