@@ -1,27 +1,33 @@
-import React from 'react'
+import React from "react";
 
 const HeroSection = () => {
   return (
-    <section style={{ padding: "0 10rem", marginTop: "7rem", marginBottom: "7rem", height: "50vh" }}>
-        <h1 className="text-center fw-bold mb-3" style={{ color: "#0a2463" }}>
-            We bring long-lasting impacts into reality!
+    <section className="container" style={{ minHeight: "100vh", paddingTop: "7rem" }}>
+      <div className="text-center">
+        <h1 className="fw-bold mb-3" style={{ color: "#0a2463" }}>
+          We bring long-lasting impacts into reality!
         </h1>
-        <p className="text-center" >
-            Your digital investments matter. Sustainable applications are needed to accelerate the business to a higher level. Years of experience thriving in any scale of business and technology complexities drive us to continuously innovate to create a modern, reliable, predictable, and battle-tested product engineering approach that is amazingly trusted and adopted by top-notch innovators, industry, and technology leaders. The way we do this ensures your digital sustainability investment from day one.
+        <p className="lead">
+          Your digital investments matter. Sustainable applications are needed to accelerate the business to a higher level. Years of experience thriving in any scale of business and technology complexities drive us to continuously innovate
+          to create a modern, reliable, predictable, and battle-tested product engineering approach that is amazingly trusted and adopted by top-notch innovators, industry, and technology leaders. The way we do this ensures your digital
+          sustainability investment from day one.
         </p>
-        <div className="text-center d-flex justify-content-center">
-            <div style={{marginLeft: "1rem", marginRight: "1rem"}}><span style={{ marginRight: "0.5rem", fontSize: "1.5rem" }}>✓</span><span>Effective</span></div>
-            <div style={{marginLeft: "1rem", marginRight: "1rem"}}><span style={{ marginRight: "0.5rem", fontSize: "1.5rem" }}>✓</span><span>Efficient</span></div>
-            <div style={{marginLeft: "1rem", marginRight: "1rem"}}><span style={{ marginRight: "0.5rem", fontSize: "1.5rem" }}>✓</span><span>Efective</span></div>
-            <div style={{marginLeft: "1rem", marginRight: "1rem"}}><span style={{ marginRight: "0.5rem", fontSize: "1.5rem" }}>✓</span><span>Exclusive</span></div>
-            <div style={{marginLeft: "1rem", marginRight: "1rem"}}><span style={{ marginRight: "0.5rem", fontSize: "1.5rem" }}>✓</span><span>Long-term</span></div>
-        </div>
-        <div className='d-flex justify-content-center' style={{ marginTop: "2rem" }}>
-            <button>Click Here</button>
-        </div>
+      </div>
+      <div className="row text-center justify-content-center mt-4">
+        {["Effective", "Efficient", "Efective", "Exclusive", "Long-term"].map((item, index) => (
+          <div key={index} className="col-6 col-md-2 mb-3">
+            <span className="me-2 fs-4">✓</span>
+            <span>{item}</span>
+          </div>
+        ))}
+      </div>
+      <div className="text-center mt-4">
+        <a href="#whyChooseUs" className="btn btn-lg" style={{ backgroundColor: "#0a2463", color: "#fff" }}>
+          Click Here
+        </a>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
-
+export default HeroSection;
