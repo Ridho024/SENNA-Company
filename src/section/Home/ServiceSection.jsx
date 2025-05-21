@@ -1,5 +1,6 @@
 import React from "react";
 import { services } from "../../data/services";
+import { Link } from "react-router-dom";
 
 const ServiceSection = () => {
   return (
@@ -14,7 +15,7 @@ const ServiceSection = () => {
       <div className="container">
         <div className="row justify-content-center mt-3 g-4">
           {services.map((service, index) => (
-            <div key={index} className="col-6 col-sm-6 col-md-4 col-lg-3">
+            <Link key={index} className="col-6 col-sm-6 col-md-4 col-lg-3 text-decoration-none" to={service.path}>
               <div className="card bg-white text-dark border border-primary p-3 h-100 d-flex flex-column align-items-center justify-content-between cursor-pointer hover-shadow">
                 <h6 className="mb-3">{service.title}</h6>
                 <img
@@ -23,7 +24,7 @@ const ServiceSection = () => {
                   style={{ width: "90px", height: "90px" }}
                 />
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

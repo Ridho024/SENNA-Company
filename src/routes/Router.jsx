@@ -25,10 +25,10 @@ const Router = () => {
           }
         />
         <Route
-          path="/services"
+          path="/services/web-development"
           element={
             <MainLayout>
-              <Services/>
+              <Web />
             </MainLayout>
           }
         />
