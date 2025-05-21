@@ -1,3 +1,6 @@
-export { default as Home } from "./Home";
-export { default as Portofolio } from "./Portofolio";
-export { default as Services } from "./Services";
+import Home from './Home';
+import About from './About';
+import Portofolio from './Portofolio';
+import Services from './Services';
+
+export { Home, About, Portofolio, Services };
