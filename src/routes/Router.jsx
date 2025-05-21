@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Portofolio, Web } from "../pages";
+import { Home, Portofolio, About, Web } from "../pages";
 
 import MainLayout from "../layouts/MainLayout";
 
@@ -29,6 +29,14 @@ const Router = () => {
           element={
             <MainLayout>
               <Web />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <MainLayout>
+              <About/>
             </MainLayout>
           }
         />
