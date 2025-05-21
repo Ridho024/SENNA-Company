@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/services"
+                  to="/"
                   className="text-white-50 text-decoration-none d-block mb-1"
                 >
                   Services
@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/"
                   className="text-white-50 text-decoration-none d-block"
                 >
                   Contact

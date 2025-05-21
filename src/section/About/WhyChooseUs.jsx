@@ -1,39 +1,10 @@
 import React from "react";
-import battle_tested from "../../assets/images/about/battle_tested.png";
-import creative_mind from "../../assets/images/about/creative_mind.png";
-import dedicated_team from "../../assets/images/about/dedicated_team.png";
-import focusing_on_you from "../../assets/images/about/focusing_on_you.png";
+import { cards } from "../../data/about";
+import { motion } from "motion/react";
 
 const WhyChooseUs = () => {
-  const cards = [
-    {
-      imgSrc: creative_mind,
-      title: "Creative Mind",
-      text: "Endless creative and robust analytical mind to solve your business problems.",
-      link: "#",
-    },
-    {
-      imgSrc: dedicated_team,
-      title: "Dedicated Team",
-      text: "There are Avengers inside that dedicatedly craft your business solutions.",
-      link: "#",
-    },
-    {
-      imgSrc: battle_tested,
-      title: "Battle Tested",
-      text: "Successfully shipped hundreds of multiplatform digital products in various industries.",
-      link: "#",
-    },
-    {
-      imgSrc: focusing_on_you,
-      title: "Focusing on You",
-      text: "Your businesses matter to us. Having honest communication and long-term relationships are our secret recipes!",
-      link: "#",
-    },
-  ];
-
   return (
-    <section
+    <motion.section
       className="why-choose-us text-center py-5"
       style={{
         width: "100%",
@@ -45,15 +16,44 @@ const WhyChooseUs = () => {
         backgroundColor: "#f9f9f9",
       }}
       id="whyChooseUs"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true, amount: 0.2 }}
     >
       <div className="container">
-        <h1 className="text-bold fw-bolder mb-4">Why You Need To Choose Us</h1>
-        <p className="mb-5" style={{ fontSize: "1.1rem" }}>
-          Our purpose is simple: <strong>to empower and deliver long-lasting greatness!</strong>
-        </p>
+        <motion.h1
+          className="text-bold fw-bolder mb-4"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          Why You Need To Choose Us
+        </motion.h1>
+
+        <motion.p
+          className="mb-5"
+          style={{ fontSize: "1.1rem" }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          Our purpose is simple:{" "}
+          <strong>to empower and deliver long-lasting greatness!</strong>
+        </motion.p>
+
         <div className="row">
           {cards.map((card, index) => (
-            <div key={index} className="col-lg-3 col-md-6 mb-4 d-flex justify-content-center">
+            <motion.div
+              key={index}
+              className="col-lg-3 col-md-6 mb-4 d-flex justify-content-center"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.15 * index }}
+              viewport={{ once: true }}
+            >
               <div
                 className="card text-center"
                 style={{
@@ -83,11 +83,11 @@ const WhyChooseUs = () => {
                   <p className="card-text">{card.text}</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

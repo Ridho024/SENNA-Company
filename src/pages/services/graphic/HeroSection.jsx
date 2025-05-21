@@ -17,7 +17,7 @@ const HeroSection = () => {
             className="text-uppercase fw-semibold mb-2"
             style={{ color: "#0a2463" }}
           >
-            Website Development
+            Graphic Design
           </p>
           <h1
             className="fw-bold mb-4"
