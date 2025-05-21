@@ -126,7 +126,7 @@ const Navbar = () => {
         </div>
 
         <div className="d-none d-lg-block">
-          <NavLink to="/contact" className="btn btn-primary custom-btn">
+          <NavLink to="/contact" className="btn" style={{ backgroundColor: "#0a2463", color: "#fff" }}>
             Let's Talk! <span className="arrow">→</span>
           </NavLink>
         </div>
