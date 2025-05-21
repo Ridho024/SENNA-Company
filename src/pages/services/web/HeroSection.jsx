@@ -1,5 +1,5 @@
 import React from "react";
-import uiuxImage from "../../../assets/services/web_dev.png"; // Ganti path sesuai dengan lokasi gambar
+import uiuxImage from "../../../assets/services/web_dev.png";
 
 const HeroSection = () => {
   return (

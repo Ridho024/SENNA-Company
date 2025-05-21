@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Navbar.css"; // Import your CSS file for custom styles
+import "./Navbar.css"; 
 
 const Navbar = () => {
   const activeLinkStyle = {
@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3 px-4">
+    <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3 px-4 sticky-top">
       <div className="container-fluid">
         <NavLink className="navbar-brand d-flex align-items-center gap-2" to="/">
           <span className="fw-bold fs-4" style={{ color: "#0a2463" }}>
