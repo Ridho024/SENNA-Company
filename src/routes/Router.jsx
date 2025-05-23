@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Portofolio, About, Web } from "../pages";
-
+import { Home, Portofolio, About, Web, UiUx, GraphicDesign } from "../pages";
 import MainLayout from "../layouts/MainLayout";
+import PortfolioSection from "../section/Home/PortofolioSection";
 
 const Router = () => {
   return (
@@ -20,7 +20,7 @@ const Router = () => {
           path="/portofolio"
           element={
             <MainLayout>
-              <Portofolio/>
+              <PortfolioSection/>
             </MainLayout>
           }
         />
@@ -29,6 +29,22 @@ const Router = () => {
           element={
             <MainLayout>
               <Web />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/services/ui-ux-design"
+          element={
+            <MainLayout>
+              <UiUx />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/services/graphic-design"
+          element={
+            <MainLayout>
+              <GraphicDesign />
             </MainLayout>
           }
         />

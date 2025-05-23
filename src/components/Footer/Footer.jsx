@@ -1,91 +1,159 @@
-// import React from "react";
-
-// const Footer = () => {
-//   return (
-//     <div style={{ width: "100%", height: "400px", backgroundColor: "#0a2463", color: "white" }}>
-//       <div style={{ width: "100%" }}>
-//         <div className="row row-cols-2" style={{ width: "100%", padding: "5rem 9rem" }}>
-//           <div className="col-9">
-//             <p style={{ fontSize: "1.5rem", fontWeight: "bold" }}>SENNA is a digital product development company that specializes in creating innovative and user-centric solutions for businesses worldwide.</p>
-//           </div>
-//           <div className="col-3">
-//             <ul style={{ listStyleType: "none", padding: 0 }}>
-//               <li>
-//                 <a href="#about" style={{ color: "white", textDecoration: "none" }}>
-//                   About Us
-//                 </a>
-//               </li>
-//               <li>
-//                 <a href="#services" style={{ color: "white", textDecoration: "none" }}>
-//                   Services
-//                 </a>
-//               </li>
-//               <li>
-//                 <a href="#contact" style={{ color: "white", textDecoration: "none" }}>
-//                   Contact
-//                 </a>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </div>
-//       <div style={{ textAlign: "center", marginTop: "2rem" }}>
-//         <p>&copy; {new Date().getFullYear()} SENNA. All rights reserved.</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Footer;
-
 import React from "react";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Twitter,
-} from "lucide-react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: "#0a2463", color: "white" }}>
-      <div className="container py-5">
+    <footer className="text-white py-5" style={{ backgroundColor: "#0a2463" }}>
+      <div className="container">
         <div className="row gy-4">
-          <div className="col-lg-9">
-            <p className="fs-5 fw-bold">
+          {/* Company Info */}
+          <motion.div
+            className="col-12 col-md-6 col-lg-3"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            <h3 className="fw-bold mb-3">SENNA</h3>
+            <p className="text-white-50 mb-3">
               SENNA is a digital product development company that specializes in
-              creating innovative and user-centric solutions for businesses worldwide.
+              creating innovative and user-centric solutions for businesses
+              worldwide.
             </p>
-          </div>
-          <div className="col-lg-3 d-flex flex-column align-items-lg-end">
-            <ul className="list-unstyled mb-3">
+            <div className="d-flex gap-3">
+              <a href="#" className="text-white fs-5">
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a href="#" className="text-white fs-5">
+                <i className="fab fa-github"></i>
+              </a>
+              <a href="#" className="text-white fs-5">
+                <i className="fab fa-twitter"></i>
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Quick Links */}
+          <motion.div
+            className="col-6 col-md-6 col-lg-3"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            <h5 className="fw-semibold mb-3">Quick Links</h5>
+            <ul className="list-unstyled">
               <li>
-                <a href="#about" className="text-white text-decoration-none">About Us</a>
+                <Link
+                  to="/"
+                  className="text-white-50 text-decoration-none d-block mb-1"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-white text-decoration-none">Services</a>
+                <Link
+                  to="/about"
+                  className="text-white-50 text-decoration-none d-block mb-1"
+                >
+                  About
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-white text-decoration-none">Contact</a>
+                <Link
+                  to="/"
+                  className="text-white-50 text-decoration-none d-block mb-1"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/portofolio"
+                  className="text-white-50 text-decoration-none d-block mb-1"
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/"
+                  className="text-white-50 text-decoration-none d-block"
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
+          </motion.div>
+
+          {/* Services */}
+          <motion.div
+            className="col-6 col-md-6 col-lg-3"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            viewport={{ once: true }}
+          >
+            <h5 className="fw-semibold mb-3">Our Services</h5>
+            <ul className="list-unstyled text-white-50">
+              <li className="mb-1">Web Development</li>
+              <li className="mb-1">Odoo Customization</li>
+              <li className="mb-1">UI/UX Design</li>
+              <li>Graphic Design</li>
+            </ul>
+          </motion.div>
+
+          {/* Newsletter */}
+          <motion.div
+            className="col-12 col-md-6 col-lg-3"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <h5 className="fw-semibold mb-3">Newsletter</h5>
+            <p className="text-white-50 mb-3">
+              Stay updated with our latest news and updates.
+            </p>
+            <form>
+              <div className="mb-2">
+                <input
+                  type="email"
+                  className="form-control bg-light text-dark border-0"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="btn btn-light text-primary fw-semibold w-100"
+              >
+                Subscribe
+              </motion.button>
+            </form>
+          </motion.div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="mt-5 pt-4 border-top border-white-50">
+          <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p className="text-white-50 mb-2 mb-md-0">
+              © {new Date().getFullYear()} SENNA. All rights reserved.
+            </p>
             <div className="d-flex gap-3">
-              <Link to="https://facebook.com" className="text-white">
-                <Facebook size={20} />
+              <Link
+                to="/privacy"
+                className="text-white-50 text-decoration-none"
+              >
+                Privacy Policy
               </Link>
-              <Link to="https://instagram.com" className="text-white">
-                <Instagram size={20} />
-              </Link>
-              <Link to="https://linkedin.com" className="text-white">
-                <Linkedin size={20} />
+              <Link to="/terms" className="text-white-50 text-decoration-none">
+                Terms of Service
               </Link>
             </div>
           </div>
         </div>
-      </div>
-      <div className="text-center py-3 border-top border-white border-opacity-25">
-        <small>&copy; {new Date().getFullYear()} SENNA. All rights reserved.</small>
       </div>
     </footer>
   );
