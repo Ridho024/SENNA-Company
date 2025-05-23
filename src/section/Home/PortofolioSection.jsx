@@ -13,9 +13,9 @@ const PortfolioSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
+          style={{ color: "#0a2463" }}
         >
-          We build <span style={{ color: "#0a2463" }}>products</span> people
-          love
+          Build with Purpose. Code with Impact.
         </motion.h2>
 
         <motion.p
@@ -25,7 +25,7 @@ const PortfolioSection = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          clean design, smart code, and real impact.
+          We build digital products that people love and businesses rely on.
         </motion.p>
 
         <div className="row justify-content-center mt-4">

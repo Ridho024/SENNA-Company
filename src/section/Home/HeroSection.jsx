@@ -27,11 +27,12 @@ const HeroSection = () => {
               className="mb-3 fw-bold hero-heading"
               style={{ color: "#0a2463" }}
             >
-              Fullstack web developer & Odoo specialist with a designer's eye.
+              Loyalty is our commitment, your satisfaction is our goal
             </h2>
             <p>
-              From clean code to pixel-perfect design. We craft digital
-              solutions that work and look good.
+              We are technology enthusiasts who are committed to providing
+              various solutions and your needs. Senna is where you find
+              efficient and easy-to-use digital solutions
             </p>
             <motion.a
               href="/about"
