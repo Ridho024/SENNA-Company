@@ -13,15 +13,18 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <p
-            className="text-uppercase fw-semibold mb-2"
-            style={{ color: "#0a2463" }}
+          <motion.span
+            className="badge mb-3 px-3 py-2 rounded-pill"
+            style={{ backgroundColor: "#0a2463" }}
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
           >
             Graphic Design
-          </p>
+          </motion.span>
           <h1
             className="fw-bold mb-4"
-            style={{ fontSize: "2rem", lineHeight: "1.4" }}
+            style={{ fontSize: "2rem", lineHeight: "1.4", color: "#0a2463" }}
           >
             Let’s Build a Website Your Users Will Love
           </h1>
