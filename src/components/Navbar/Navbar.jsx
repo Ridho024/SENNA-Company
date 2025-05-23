@@ -16,7 +16,7 @@ const Navbar = () => {
           to="/"
         >
           <span className="fw-bold fs-4" style={{ color: "#0a2463" }}>
-            SENNA.
+            SENNA
           </span>
         </NavLink>
 

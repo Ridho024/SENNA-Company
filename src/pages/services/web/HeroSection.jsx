@@ -17,25 +17,25 @@ const HeroSection = () => {
             className="text-uppercase fw-semibold mb-2"
             style={{ color: "#0a2463" }}
           >
-            Website Development
+            Web Development Services
           </p>
           <h1
             className="fw-bold mb-4"
             style={{ fontSize: "2rem", lineHeight: "1.4" }}
           >
-            Let’s Build a Website Your Users Will Love
+            Crafting Websites That Captivate and Convert
           </h1>
           <p className="text-muted mb-4">
-            We create fast, modern, and easy-to-use websites that help you
-            connect better with your audience and grow your business, all
-            without the tech headache.
+            Our team specializes in building sleek, high-performing websites
+            designed to engage your audience, elevate your brand, and drive
+            measurable results—all without the technical hassle.
           </p>
           <a
             href="#learn-more"
             className="btn fw-bold"
             style={{ backgroundColor: "#0a2463", color: "#fff" }}
           >
-            learn more <span className="ms-1">↓</span>
+            Discover More <span className="ms-1">↓</span>
           </a>
         </motion.div>
 
@@ -48,7 +48,7 @@ const HeroSection = () => {
         >
           <img
             src={uiuxImage}
-            alt="UI/UX Illustration"
+            alt="Web Development Illustration"
             className="img-fluid"
             style={{ maxHeight: "400px", objectFit: "contain" }}
           />

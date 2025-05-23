@@ -22,17 +22,17 @@ export const products_web = [
   {
     img: discoveryImg,
     title: "E Commerce Website",
-    desc: "We help you launch powerful online stores that are easy to manage, built to convert, and ready to grow with your business.",
+    desc: "Launch a seamless online store designed to attract customers, drive sales, and scale effortlessly with your business.",
   },
   {
     img: developmentImg,
     title: "Company Profile Website",
-    desc: "Showcase your brand’s identity and credibility with a modern, informative, and engaging company website that speaks for your business.",
+    desc: "Create a professional online presence that reflects your brand, builds trust, and communicates your business values effectively.",
   },
   {
     img: auditImg,
-    title: "Personal portofolio website",
-    desc: "Stand out and share your story with a clean, creative portfolio that highlights your skills, work, and personality — all in one place.",
+    title: "Personal Portfolio Website",
+    desc: "Showcase your unique talents and achievements with a visually stunning portfolio that leaves a lasting impression.",
   },
 ];
 
