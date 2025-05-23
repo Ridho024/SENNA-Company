@@ -24,7 +24,9 @@ const ProductsSection = () => {
       viewport={{ once: true, amount: 0.2 }}
     >
       <div className="container text-center">
-        <h2 className="fw-bold mb-3">Build websites for various needs</h2>
+        <h2 className="fw-bold mb-3" style={{ color: "#0a2463" }}>
+          Build websites for various needs
+        </h2>
         <p className="text-muted mb-5">
           We offer a variety of website needs, our target is to provide the best
           service for our customers.
