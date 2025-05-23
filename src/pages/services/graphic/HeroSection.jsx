@@ -1,5 +1,5 @@
 import React from "react";
-import uiuxImage from "../../../assets/services/web_dev.png";
+import graphic_hero from "../../../assets/services/graphic/graphic_hero.png";
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
@@ -26,12 +26,10 @@ const HeroSection = () => {
             className="fw-bold mb-4"
             style={{ fontSize: "2rem", lineHeight: "1.4", color: "#0a2463" }}
           >
-            Let’s Build a Website Your Users Will Love
+            Crafting Visual Stories That Captivate
           </h1>
           <p className="text-muted mb-4">
-            We create fast, modern, and easy-to-use websites that help you
-            connect better with your audience and grow your business, all
-            without the tech headache.
+            We design stunning visuals and graphics that communicate your brand's story, engage your audience, and leave a lasting impression. Let us bring your ideas to life with creativity and precision.
           </p>
           <a
             href="#learn-more"
@@ -50,8 +48,8 @@ const HeroSection = () => {
           viewport={{ once: true }}
         >
           <img
-            src={uiuxImage}
-            alt="UI/UX Illustration"
+            src={graphic_hero}
+            alt="Graphic Design Illustration"
             className="img-fluid"
             style={{ maxHeight: "400px", objectFit: "contain" }}
           />

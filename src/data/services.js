@@ -14,6 +14,17 @@ import odoo_tav from "../assets/services/odoo/odoo_testing_and_validation.png";
 import odoo_das from "../assets/services/odoo/odoo_deployment_and_support.png";
 import odoo_ra from "../assets/services/odoo/odoo_requirement_analysis.png";
 
+// Graphic design
+import graphic_ds from "../assets/services/graphic/graphic_g_design.png";
+import graphic_ba from "../assets/services/graphic/graphic_brand_analysis.png";
+import graphic_is from "../assets/services/graphic/graphic_ideation_and_scetching.png";
+import graphic_rr from "../assets/services/graphic/graphic_review_and_refinement.png";
+import graphic_das from "../assets/services/graphic/graphic_delivery_and_support.png";
+
+import graphic_ld from "../assets/services/graphic/graphic_logo_design.png";
+import graphic_cd from "../assets/services/graphic/graphic_card_design.png";
+import graphic_sm from "../assets/services/graphic/graphic_socmed.png";
+
 export const services = [
   { title: "Web development", icon: web, path: "/services/web-development" },
   {
@@ -126,5 +137,52 @@ export const process_odoo = [
     number: "6. Deployment & Support",
     image: odoo_das,
     desc: "After deployment, we provide ongoing support and optimization to ensure your Odoo system continues to perform effectively.",
+  },
+];
+
+// Graphic
+export const products_graphic = [
+  {
+    img: graphic_ld,
+    title: "Logo Design",
+    desc: "Create a unique and memorable logo that represents your brand identity and resonates with your target audience.",
+  },
+  {
+    img: graphic_cd,
+    title: "Business Card Design",
+    desc: "Design professional business cards that leave a lasting impression and effectively communicate your brand.",
+  },
+  {
+    img: graphic_sm,
+    title: "Social Media Graphics",
+    desc: "Craft eye-catching graphics for social media platforms to enhance engagement and promote your brand effectively.",
+  },
+];
+
+export const process_graphic = [
+  {
+    number: "1. Brand Analysis",
+    image: graphic_ba,
+    desc: "We analyze your brand's identity, values, and target audience to create designs that resonate effectively.",
+  },
+  {
+    number: "2. Ideation & Sketching",
+    image: graphic_is,
+    desc: "We generate creative ideas and draft initial sketches to align with your brand's vision and goals.",
+  },
+  {
+    number: "3. Graphic Design",
+    image: graphic_ds,
+    desc: "Our team crafts visually stunning designs, ensuring they are both impactful and aligned with your brand identity.",
+  },
+  {
+    number: "4. Review & Refinement",
+    image: graphic_rr,
+    desc: "We work closely with you to review the designs and refine them based on your feedback for perfection.",
+  },
+  {
+    number: "5. Delivery & Support",
+    image: graphic_das,
+    desc: "We deliver the final designs in all required formats and provide support for their effective implementation.",
   },
 ];

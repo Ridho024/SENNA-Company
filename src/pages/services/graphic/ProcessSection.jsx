@@ -1,5 +1,5 @@
 import React from "react";
-import { process_web } from "../../../data/services";
+import { process_graphic } from "../../../data/services";
 
 const ProcessSection = () => {
   return (
@@ -7,17 +7,15 @@ const ProcessSection = () => {
       <div className="container">
         <div className="text-center mb-5">
           <h2 className="fw-bold" style={{ color: "#0a2463" }}>
-            Development Process
+            Design Process
           </h2>
           <p className="text-muted mx-auto" style={{ maxWidth: "600px" }}>
-            We build websites with a clear and collaborative process, focused on
-            understanding your needs, designing with purpose, and delivering
-            results that work for your business
+            Our graphic design process is tailored to bring your vision to life, combining creativity, strategy, and collaboration to deliver designs that captivate and communicate effectively.
           </p>
         </div>
 
         <div className="row mx-4">
-          {process_web.map((step, idx) => (
+          {process_graphic.map((step, idx) => (
             <div key={idx} className="col-12">
               <div className="row align-items-center">
                 <div
