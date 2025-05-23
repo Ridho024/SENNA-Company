@@ -1,5 +1,5 @@
 import React from "react";
-import image_animation from "../../assets/images/about/image_animation.png"
+import image_animation from "../../assets/images/about/image_animation.png";
 
 const CTASection = () => {
   return (
@@ -25,10 +25,7 @@ const CTASection = () => {
           }}
         >
           {/* Left Content */}
-          <div
-            className="col-lg-6 col-md-12 text-center text-lg-start"
-            style={{ marginBottom: "2rem" }}
-          >
+          <div className="col-lg-6 col-md-12 text-center text-lg-start" style={{ marginBottom: "2rem" }}>
             <h2
               className="mb-4"
               style={{
@@ -37,7 +34,7 @@ const CTASection = () => {
                 color: "#000",
               }}
             >
-              Love what we do?
+              Ready to Bring Your Vision to Life?
             </h2>
             <p
               className="mb-4"
@@ -47,8 +44,7 @@ const CTASection = () => {
                 lineHeight: "1.8",
               }}
             >
-              Your ideas matter to us. Share what you have in mind, feel free to
-              discuss it (for free!) and see what we can do!
+              Don’t just dream it—let’s create it together! Share your ideas with us, and we’ll help you turn them into reality. Let’s start the conversation today!
             </p>
             <button
               className="btn btn-primary"

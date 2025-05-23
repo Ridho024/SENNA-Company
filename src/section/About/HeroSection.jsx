@@ -16,7 +16,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          We bring long-lasting impacts into reality!
+          Turning Vision into Reality with Lasting Impact!
         </motion.h1>
 
         <motion.p
@@ -26,13 +26,13 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          Your digital investments matter. Sustainable applications are
-          needed...
+          Your digital future matters. Build sustainable solutions that drive
+          meaningful change.
         </motion.p>
       </div>
 
       <div className="row text-center justify-content-center mt-4">
-        {["Effective", "Efficient", "Efective", "Exclusive", "Long-term"].map(
+        {["Innovative", "Efficient", "Reliable", "Exclusive", "Sustainable"].map(
           (item, index) => (
             <motion.div
               key={index}
@@ -61,7 +61,7 @@ const HeroSection = () => {
           className="btn btn-lg"
           style={{ backgroundColor: "#0a2463", color: "#fff" }}
         >
-          Click Here
+          Learn More
         </a>
       </motion.div>
     </section>
