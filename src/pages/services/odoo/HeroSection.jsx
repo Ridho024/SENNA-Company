@@ -1,5 +1,5 @@
 import React from "react";
-import uiuxImage from "../../../assets/services/web_dev.png";
+import odoo_hero from "../../../assets/services/odoo/odoo_hero.png";
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
@@ -48,7 +48,7 @@ const HeroSection = () => {
           viewport={{ once: true }}
         >
           <img
-            src={uiuxImage}
+            src={odoo_hero}
             alt="UI/UX Illustration"
             className="img-fluid"
             style={{ maxHeight: "400px", objectFit: "contain" }}

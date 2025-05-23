@@ -14,6 +14,10 @@ import odoo_tav from "../assets/services/odoo/odoo_testing_and_validation.png";
 import odoo_das from "../assets/services/odoo/odoo_deployment_and_support.png";
 import odoo_ra from "../assets/services/odoo/odoo_requirement_analysis.png";
 
+import odoo_cm from "../assets/services/odoo/odoo_custom_module.png";
+import odoo_mt from "../assets/services/odoo/odoo_maintenance.png";
+import odoo_pim from "../assets/services/odoo/odoo_p_implementation.png";
+
 // Graphic design
 import graphic_ds from "../assets/services/graphic/graphic_g_design.png";
 import graphic_ba from "../assets/services/graphic/graphic_brand_analysis.png";
@@ -91,17 +95,17 @@ export const process_web = [
 // Service odoo customization
 export const products_odoo = [
   {
-    img: discoveryImg,
+    img: odoo_cm,
     title: "Custom Module Development",
     desc: "Tailor Odoo modules to meet your unique business needs, ensuring seamless integration and enhanced functionality.",
   },
   {
-    img: developmentImg,
+    img: odoo_pim,
     title: "Odoo Implementation",
     desc: "Streamline your business processes with expert Odoo implementation, customized to fit your operational requirements.",
   },
   {
-    img: auditImg,
+    img: odoo_mt,
     title: "Odoo Support & Maintenance",
     desc: "Ensure your Odoo system runs smoothly with ongoing support, updates, and troubleshooting from our expert team.",
   },
