@@ -22,7 +22,7 @@ const C4Section = () => {
         >
           <img
             src={scbd}
-            alt="Office Building"
+            alt="Modern Office Building"
             className="rounded shadow-lg"
             style={{ height: "90vh", width: "100%", objectFit: "cover" }}
           />
@@ -36,7 +36,7 @@ const C4Section = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <h2 className="mb-4" style={{ color: "#0a2463", fontWeight: "bold" }}>
-            4C is Our Valuable Identity
+            4C: Our Core Identity
           </h2>
           <p
             className="mb-4"
@@ -46,10 +46,10 @@ const C4Section = () => {
               lineHeight: "1.8",
             }}
           >
-            At our office, we believe in creating an environment that fosters
-            creativity, collaboration, and innovation. We're passionate about
-            helping our clients succeed and are committed to providing the tools
-            and resources they need to achieve their goals.
+            At our workplace, we are dedicated to cultivating an atmosphere that
+            inspires creativity, teamwork, and innovation. Our mission is to empower
+            our clients with the tools and resources they need to thrive and achieve
+            their aspirations.
           </p>
 
           {/* Cards Section */}
@@ -69,7 +69,7 @@ const C4Section = () => {
                       src={card.icon}
                       alt={card.title}
                       className="mb-3"
-                      style={{ width: "50px" }}
+                      style={{ width: "100px", height: "100px", objectFit: "contain" }}
                     />
                     <h5
                       className="card-title"

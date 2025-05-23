@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Why You Need To Choose Us
+          Why Choose Us
         </motion.h1>
 
         <motion.p
@@ -40,8 +40,8 @@ const WhyChooseUs = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          Our purpose is simple:{" "}
-          <strong>to empower and deliver long-lasting greatness!</strong>
+          Our mission is clear:{" "}
+          <strong>to inspire and deliver enduring excellence!</strong>
         </motion.p>
 
         <div className="row">
