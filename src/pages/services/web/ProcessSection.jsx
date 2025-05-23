@@ -38,14 +38,14 @@ const ProcessSection = () => {
                 </div>
 
                 <div
-                  className={`col-md-6 text-center text-md-start ${
+                  className={`col-md-6 text-center text-md-start mb-4 ${
                     idx % 2 === 1 ? "order-md-1" : ""
                   }`}
                 >
                   <h4 className="fw-bold" style={{ color: "#0a2463" }}>
                     {step.number}
                   </h4>
-                  <p className="text-muted" style={{ maxWidth: "500px" }}>
+                  <p className="text-muted " style={{ maxWidth: "500px" }}>
                     {step.desc}
                   </p>
                 </div>
