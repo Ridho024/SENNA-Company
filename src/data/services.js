@@ -2,15 +2,28 @@ import web from "../assets/services/web_dev.png";
 import odoo from "../assets/services/odoo_dev.png";
 import ui_ux from "../assets/services/ui_ux.png";
 import graphic from "../assets/services/graphic_design.png";
-import web_ecommerce from "../assets/services/web_ecommerce.png";
-import web_company from "../assets/services/web_company.png";
-import web_porto from "../assets/services/web_porto.png";
-import web_plan from "../assets/services/web_plan.png";
-import web_ux from "../assets/services/web_ux.png";
-import web_ui from "../assets/services/web_ui.png";
-import web_dev_process from "../assets/services/web_dev_process.png";
-import web_test from "../assets/services/web_test.png";
-import web_launch from "../assets/services/web_launch.png";
+import discoveryImg from "../assets/services/web_dev.png";
+import developmentImg from "../assets/services/web_dev.png";
+import auditImg from "../assets/services/web_dev.png";
+
+// Website Development
+import web_ecommerce from "../assets/services/website/web_ecommerce.png";
+import web_company from "../assets/services/website/web_company.png";
+import web_porto from "../assets/services/website/web_porto.png";
+import web_plan from "../assets/services/website/web_plan.png";
+import web_ux from "../assets/services/website/web_ux.png";
+import web_ui from "../assets/services/website/web_ui.png";
+import web_dev_process from "../assets/services/website/web_dev_process.png";
+import web_test from "../assets/services/website/web_test.png";
+import web_launch from "../assets/services/website/web_launch.png";
+
+// Odoo customization
+import odoo_cp from "../assets/services/odoo/odoo_costumization_planning.png";
+import odoo_md from "../assets/services/odoo/odoo_module_development.png";
+import odoo_im from "../assets/services/odoo/odoo_implementation.png";
+import odoo_tav from "../assets/services/odoo/odoo_testing_and_validation.png";
+import odoo_das from "../assets/services/odoo/odoo_deployment_and_support.png";
+import odoo_ra from "../assets/services/odoo/odoo_requirement_analysis.png";
 
 export const services = [
   { title: "Web development", icon: web, path: "/services/web-development" },
