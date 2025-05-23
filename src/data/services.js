@@ -28,12 +28,12 @@ export const products_web = [
   {
     img: web_ecommerce,
     title: "E Commerce Website",
-    desc: "We help you launch powerful online stores that are easy to manage, built to convert, and ready to grow with your business.",
+    desc: "Launch a seamless online store designed to attract customers, drive sales, and scale effortlessly with your business.",
   },
   {
     img: web_company,
     title: "Company Profile Website",
-    desc: "Showcase your brand’s identity and credibility with a modern, informative, and engaging company website that speaks for your business.",
+    desc: "Create a professional online presence that reflects your brand, builds trust, and communicates your business values effectively.",
   },
   {
     img: web_porto,
@@ -72,5 +72,57 @@ export const process_web = [
     number: "6. Launch & Optimization",
     image: web_launch,
     desc: "Once everything’s ready, we go live — and stay with you to refine, support, and help you grow with insights and updates.",
+  },
+];
+
+// Service odoo customization
+export const products_odoo = [
+  {
+    img: discoveryImg,
+    title: "Custom Module Development",
+    desc: "Tailor Odoo modules to meet your unique business needs, ensuring seamless integration and enhanced functionality.",
+  },
+  {
+    img: developmentImg,
+    title: "Odoo Implementation",
+    desc: "Streamline your business processes with expert Odoo implementation, customized to fit your operational requirements.",
+  },
+  {
+    img: auditImg,
+    title: "Odoo Support & Maintenance",
+    desc: "Ensure your Odoo system runs smoothly with ongoing support, updates, and troubleshooting from our expert team.",
+  },
+];
+
+export const process_odoo = [
+  {
+    number: "1. Requirement Analysis",
+    image: odoo_ra,
+    desc: "We begin by analyzing your business requirements to identify the best Odoo solutions tailored to your needs.",
+  },
+  {
+    number: "2. Customization Planning",
+    image: odoo_cp,
+    desc: "We plan and design customizations to ensure Odoo aligns perfectly with your operational workflows.",
+  },
+  {
+    number: "3. Module Development",
+    image: odoo_md,
+    desc: "Our team develops and integrates custom modules to enhance functionality and meet your specific goals.",
+  },
+  {
+    number: "4. Implementation",
+    image: odoo_im,
+    desc: "We implement the customized Odoo solution, ensuring seamless integration with your existing systems.",
+  },
+  {
+    number: "5. Testing & Validation",
+    image: odoo_tav,
+    desc: "We rigorously test the system to ensure it operates smoothly and meets your business requirements.",
+  },
+  {
+    number: "6. Deployment & Support",
+    image: odoo_das,
+    desc: "After deployment, we provide ongoing support and optimization to ensure your Odoo system continues to perform effectively.",
   },
 ];

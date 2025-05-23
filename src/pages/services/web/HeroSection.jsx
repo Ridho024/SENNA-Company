@@ -20,7 +20,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            Website Development
+            Web Development Services
           </motion.span>
           <h1
             className="fw-bold mb-4"
@@ -36,7 +36,7 @@ const HeroSection = () => {
             className="btn fw-bold"
             style={{ backgroundColor: "#0a2463", color: "#fff" }}
           >
-            learn more <span className="ms-1">↓</span>
+            Discover More <span className="ms-1">↓</span>
           </a>
         </motion.div>
 
@@ -49,7 +49,7 @@ const HeroSection = () => {
         >
           <img
             src={uiuxImage}
-            alt="UI/UX Illustration"
+            alt="Web Development Illustration"
             className="img-fluid"
             style={{ maxHeight: "400px", objectFit: "contain" }}
           />
