@@ -29,9 +29,7 @@ const HeroSection = () => {
             Let’s Build an Odoo Module your Users Will Love
           </h1>
           <p className="text-muted mb-4">
-            We create fast, modern, and easy-to-use websites that help you
-            connect better with your audience and grow your business, all
-            without the tech headache.
+            We specialize in tailoring Odoo modules to meet your unique business needs, ensuring seamless integration, enhanced functionality, and a user-friendly experience that drives efficiency and growth.
           </p>
           <a
             href="#learn-more"

@@ -21,7 +21,7 @@ const HeroSection = () => {
             transition={{ delay: 0.3 }}
           >
             Web Development Services
-          </p>
+          </motion.span>
           <h1
             className="fw-bold mb-4"
             style={{ fontSize: "2rem", lineHeight: "1.4", color: "#0a2463" }}
