@@ -6,7 +6,9 @@ const ProcessSection = () => {
     <section className="py-5">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="fw-bold">Development Process</h2>
+          <h2 className="fw-bold" style={{ color: "#0a2463" }}>
+            Development Process
+          </h2>
           <p className="text-muted mx-auto" style={{ maxWidth: "600px" }}>
             We build websites with a clear and collaborative process, focused on
             understanding your needs, designing with purpose, and delivering
