@@ -27,12 +27,11 @@ const HeroSection = () => {
               className="mb-3 fw-bold hero-heading"
               style={{ color: "#0a2463" }}
             >
-              Loyalty is our commitment, your satisfaction is our goal
+              Driven by Speed. Designed for Impact.
             </h2>
             <p>
-              We are technology enthusiasts who are committed to providing
-              various solutions and your needs. Senna is where you find
-              efficient and easy-to-use digital solutions
+              At Senna, we build digital solutions with the precision of a
+              supercar — fast, sleek, and built to perform.
             </p>
             <motion.a
               href="/about"

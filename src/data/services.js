@@ -6,6 +6,17 @@ import discoveryImg from "../assets/services/web_dev.png";
 import developmentImg from "../assets/services/web_dev.png";
 import auditImg from "../assets/services/web_dev.png";
 
+// Website Development
+import web_ecommerce from "../assets/services/website/web_ecommerce.png";
+import web_company from "../assets/services/website/web_company.png";
+import web_porto from "../assets/services/website/web_porto.png";
+import web_plan from "../assets/services/website/web_plan.png";
+import web_ux from "../assets/services/website/web_ux.png";
+import web_ui from "../assets/services/website/web_ui.png";
+import web_dev_process from "../assets/services/website/web_dev_process.png";
+import web_test from "../assets/services/website/web_test.png";
+import web_launch from "../assets/services/website/web_launch.png";
+
 // Odoo customization
 import odoo_cp from "../assets/services/odoo/odoo_costumization_planning.png";
 import odoo_md from "../assets/services/odoo/odoo_module_development.png";
@@ -43,51 +54,51 @@ export const services = [
 // service web development
 export const products_web = [
   {
-    img: discoveryImg,
+    img: web_ecommerce,
     title: "E Commerce Website",
     desc: "Launch a seamless online store designed to attract customers, drive sales, and scale effortlessly with your business.",
   },
   {
-    img: developmentImg,
+    img: web_company,
     title: "Company Profile Website",
     desc: "Create a professional online presence that reflects your brand, builds trust, and communicates your business values effectively.",
   },
   {
-    img: auditImg,
-    title: "Personal Portfolio Website",
-    desc: "Showcase your unique talents and achievements with a visually stunning portfolio that leaves a lasting impression.",
+    img: web_porto,
+    title: "Personal portofolio website",
+    desc: "Stand out and share your story with a clean, creative portfolio that highlights your skills, work, and personality — all in one place.",
   },
 ];
 
 export const process_web = [
   {
     number: "1. Discovery & Planning",
-    image: discoveryImg,
+    image: web_plan,
     desc: "We start by understanding your business, audience, and goals to define the right strategy and website structure.",
   },
   {
     number: "2. Wireframing & UX Design",
-    image: discoveryImg,
+    image: web_ux,
     desc: "We create intuitive wireframes to map out the user journey and ensure smooth, goal-driven navigation.",
   },
   {
     number: "3. UI Design",
-    image: discoveryImg,
+    image: web_ui,
     desc: "Beautiful, modern, and brand-aligned designs are crafted to make your website stand out and feel professional.",
   },
   {
     number: "4. Development",
-    image: discoveryImg,
+    image: web_dev_process,
     desc: "We bring the design to life using clean code, responsive layouts, and best practices across devices and browsers.",
   },
   {
     number: "5. Testing & QA",
-    image: discoveryImg,
+    image: web_test,
     desc: "We thoroughly test everything from performance to usability, ensuring your website works perfectly before going live.",
   },
   {
     number: "6. Launch & Optimization",
-    image: discoveryImg,
+    image: web_launch,
     desc: "Once everything’s ready, we go live — and stay with you to refine, support, and help you grow with insights and updates.",
   },
 ];

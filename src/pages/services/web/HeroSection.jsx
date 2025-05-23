@@ -26,12 +26,10 @@ const HeroSection = () => {
             className="fw-bold mb-4"
             style={{ fontSize: "2rem", lineHeight: "1.4", color: "#0a2463" }}
           >
-            Crafting Websites That Captivate and Convert
+            Performance Meets Precision in Every Line of Code
           </h1>
           <p className="text-muted mb-4">
-            Our team specializes in building sleek, high-performing websites
-            designed to engage your audience, elevate your brand, and drive
-            measurable results—all without the technical hassle.
+            Inspired by the McLaren Senna, we develop websites that are fast, refined, and engineered to elevate your brand.
           </p>
           <a
             href="#learn-more"
