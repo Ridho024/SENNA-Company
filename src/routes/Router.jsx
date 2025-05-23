@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Portofolio, About, Web, UiUx, GraphicDesign } from "../pages";
+import { Home, Portofolio, About, Web, Odoo, UiUx, GraphicDesign } from "../pages";
 import MainLayout from "../layouts/MainLayout";
 import PortfolioSection from "../section/Home/PortofolioSection";
 
@@ -29,6 +29,14 @@ const Router = () => {
           element={
             <MainLayout>
               <Web />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/services/odoo-customization"
+          element={
+            <MainLayout>
+              < Odoo/>
             </MainLayout>
           }
         />
